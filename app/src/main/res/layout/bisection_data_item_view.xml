@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="380dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="a"
+        android:id="@+id/tvA"
+        android:maxLines="1"
+        android:minWidth="80dp"
+        android:maxWidth="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="b"
+        android:id="@+id/tvB"
+        android:maxLines="1"
+        android:minWidth="80dp"
+        android:layout_marginLeft="10dp"
+        android:maxWidth="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="x"
+        android:id="@+id/tvX"
+        android:maxLines="1"
+        android:minWidth="80dp"
+        android:layout_marginLeft="10dp"
+        android:maxWidth="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="f(a)"
+        android:id="@+id/tvFa"
+        android:maxLines="1"
+        android:minWidth="80dp"
+        android:layout_marginLeft="10dp"
+        android:maxWidth="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="f(b)"
+        android:id="@+id/tvFb"
+        android:maxLines="1"
+        android:minWidth="80dp"
+        android:layout_marginLeft="10dp"
+        android:maxWidth="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="f(x)"
+        android:id="@+id/tvFx"
+        android:maxLines="1"
+        android:minWidth="80dp"
+        android:layout_marginLeft="10dp"
+        android:maxWidth="80dp" />
+</LinearLayout>

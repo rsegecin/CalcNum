@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CalcNum</string>
+    <string name="title_activity_calc">CalcActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="seidel_example">4 \t\t\t1 \t\t\t1 \t\t\t5\n-2 \t\t\t5 \t\t\t1 \t\t\t0\n3 \t\t\t1 \t\t\t6 \t\t\t-6.5</string>
+    <string name="spline_example">0 \t\t\t\t0.5 \t\t\t\t\t\t1.0 \t\t\t\t\t\t1.5 \t\t\t\t\t\t2 \t\t\t\t\n3 \t\t\t1.8616 \t\t\t-0.5571 \t\t\t-4.1987 \t\t\t -9.0536</string>
+</resources>

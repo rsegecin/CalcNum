@@ -1,0 +1,92 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="utfpr.calcnum.GaussSeidel">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top"
+        android:layout_margin="20dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entre com os coeficientes separados por espaço:" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:id="@+id/tfCoef"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="top"
+            android:text="@string/seidel_example"
+            android:inputType="textMultiLine|phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9, ,.,-,\n"
+            android:imeOptions="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Erro: "
+            android:id="@+id/textView6" />
+
+        <EditText
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tfError"
+            android:singleLine="true"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9, ,."
+            android:imeOptions="actionDone"
+            android:text="0.01" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calcular"
+            android:id="@+id/btnCalculate"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Resultado:"
+            android:id="@+id/textView5"
+            android:layout_marginTop="20dp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/horizontalScrollView"
+            android:layout_below="@+id/horizontalScrollView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="50dp"
+                android:orientation="vertical">
+
+                <GridView
+                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/gvSeidel"
+                    android:scrollbars="horizontal"
+                    android:scrollIndicators="top|bottom" />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+
+</FrameLayout>
